@@ -1,13 +1,13 @@
-📝 Documentation Quality Checker
+# 📝 Documentation Quality Checker
 
-An Automated Documentation Analysis & Quality Assurance Tool
+### An Automated Documentation Analysis & Quality Assurance Tool
 
 ![Python](https://img.shields.io/badge/Python-3.13-blue)
 ![Streamlit](https://img.shields.io/badge/Framework-Streamlit-red)
 ![Status](https://img.shields.io/badge/Project-Under%20Development-orange)
 ![License](https://img.shields.io/badge/License-MIT-green)
 
-📌 Overview
+## 📌 Overview
 
 Documentation Quality Checker is a Python-based application designed to help technical writers and developers improve the quality, consistency, and readability of technical documentation.
 
@@ -17,7 +17,7 @@ Users can upload Markdown or text documents and receive an automated quality ana
 
 The goal is to make documentation reviews faster, more consistent, and more reliable while keeping human review an essential part of the publishing process.
 
-🎯 Problem Statement
+## 🎯 Problem Statement
 
 Technical documentation plays an important role in helping users understand software products and technical workflows.
 
@@ -32,51 +32,51 @@ However, reviewing documentation manually can be time-consuming. Common issues i
 
 This project aims to automate these repetitive checks through a simple and accessible interface.
 
-🚀 Key Features
+## 🚀 Key Features
 
-1. Document Upload
+### 1. Document Upload
 - Upload Markdown (`.md`) and text (`.txt`) files.
 - Preview document content before analysis.
 
-2. Repeated Word Detection
+### 2. Repeated Word Detection
 - Identifies accidentally repeated words.
 - Provides suggestions for improving the text.
 
-3. Grammar and Spelling Analysis
+### 3. Grammar and Spelling Analysis
 - Uses LanguageTool for grammar and spelling checks.
 - Identifies potential writing mistakes.
 - Provides suggested corrections.
 
-4. Terminology Validation
+### 4. Terminology Validation
 - Checks technical terminology against a predefined dictionary.
 - Identifies inconsistent naming conventions.
 - Suggests standard terminology.
 
-5. Broken Link Detection
+### 5. Broken Link Detection
 - Extracts hyperlinks from Markdown documents.
 - Checks link accessibility.
 - Identifies potentially broken links.
 
-6. Sentence Readability
+### 6. Sentence Readability
 - Identifies excessively long sentences.
 - Suggests breaking complex sentences into shorter ones.
 
-7. Documentation Structure Validation
+### 7. Documentation Structure Validation
 - Checks for missing Markdown headings.
 
-🛠️ Technology Stack
+## 🛠️ Technology Stack
 
-| Technology            | Purpose                           |
-|                       |                                   |
-| Python                | Core application logic            |
-| Streamlit             | Interactive web interface         |
-| Regular Expressions   | Text pattern detection            |
-| LanguageTool          | Grammar and spelling analysis     |
-| Requests              | HTTP link validation              |
-| Markdown              | Structured documentation          |
-| Git & GitHub          | Version control and collaboration |
+| Technology | Purpose |
+|---|---|
+| Python | Core application logic |
+| Streamlit | Interactive web interface |
+| Regular Expressions | Text pattern detection |
+| LanguageTool | Grammar and spelling analysis |
+| Requests | HTTP link validation |
+| Markdown | Structured documentation |
+| Git & GitHub | Version control and collaboration |
 
-📂 Project Structure
+## 📂 Project Structure
 
 ```text
 Documentation-Quality-Checker/
@@ -100,34 +100,34 @@ Documentation-Quality-Checker/
 
 Additional validation modules will be added as development progresses.
 
-⚙️ Installation and Setup
+## ⚙️ Installation and Setup
 
-Prerequisites
+### Prerequisites
 
 - Python 3.10 or later.
 - Java runtime for the local LanguageTool engine.
 - Git.
 - Visual Studio Code (recommended).
 
-Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 ```bash
 git clone https://github.com/Scorpyionn/documentation-quality-checker.git
 ```
 
-Step 2: Navigate to the Project
+### Step 2: Navigate to the Project
 
 ```bash
 cd documentation-quality-checker
 ```
 
-Step 3: Create a Virtual Environment
+### Step 3: Create a Virtual Environment
 
 ```bash
 python -m venv .venv
 ```
 
-Step 4: Activate the Environment
+### Step 4: Activate the Environment
 
 For Windows:
 
@@ -135,13 +135,13 @@ For Windows:
 .venv\Scripts\activate
 ```
 
-Step 5: Install Dependencies
+### Step 5: Install Dependencies
 
 ```bash
 python -m pip install -r requirements.txt
 ```
 
-Step 6: Run the Application
+### Step 6: Run the Application
 
 ```bash
 python -m streamlit run app.py
@@ -155,7 +155,7 @@ Default local address:
 http://localhost:8501
 ```
 
-🔍 How It Works
+## 🔍 How It Works
 
 The application follows a simple workflow:
 
@@ -166,21 +166,21 @@ The application follows a simple workflow:
 5. Results are categorised into errors and warnings.
 6. Users receive suggestions to improve documentation quality.
 
-📊 Sample Analysis
+## 📊 Sample Analysis
 
 The application has been tested using sample Markdown documents containing intentional documentation issues.
 
 Example results:
 
-| Validation              |Detected Issue           |
-|                         |                         |
-| Repeated Words          | application application |
-| Terminology             | Github → GitHub         |
-| Terminology             | Gen AI → GenAI          |
-| Grammar                 | Incorrect verb usage    |
-| Broken Links            | Inaccessible URL        |
+| Validation | Detected Issue |
+|---|---|
+| Repeated Words | application application |
+| Terminology | Github → GitHub |
+| Terminology | Gen AI → GenAI |
+| Grammar | Incorrect verb usage |
+| Broken Links | Inaccessible URL |
 
-🔮 Future Improvements
+## 🔮 Future Improvements
 
 The project is actively being developed. Planned improvements include:
 
@@ -193,7 +193,7 @@ The project is actively being developed. Planned improvements include:
 - Semantic search and document retrieval.
 - Git-based documentation quality checks.
 
-🔐 Accuracy and Human Review
+## 🔐 Accuracy and Human Review
 
 Automated checking tools can occasionally produce false positives or miss context-specific errors.
 
@@ -201,12 +201,12 @@ Therefore, the application is intended to assist technical writers rather than r
 
 All suggested changes should be reviewed before being incorporated into published documentation.
 
-👨‍💻 Author
+## 👨‍💻 Author
 
-Raj Chaudhari
+**Raj Chaudhari**
 
 B.Tech – Computer Science and Engineering  
-Specialization:- Artificial Intelligence and Analytics
+Specialization: Artificial Intelligence and Analytics
 
 Interests:
 - Generative AI
@@ -215,4 +215,12 @@ Interests:
 - Machine Learning
 - Documentation Engineering
 
-Built as a practical exploration of Python automation, technical writing, and documentation quality assurance.
+GitHub: https://github.com/Scorpyionn
+
+## 📄 License
+
+This project is licensed under the MIT License.
+
+---
+
+*Built as a practical exploration of Python automation, technical writing, and documentation quality assurance.*
