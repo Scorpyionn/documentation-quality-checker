@@ -217,10 +217,6 @@ Interests:
 
 GitHub: https://github.com/Scorpyionn
 
-## 📄 License
-
-This project is licensed under the MIT License.
-
 ---
 
 *Built as a practical exploration of Python automation, technical writing, and documentation quality assurance.*
